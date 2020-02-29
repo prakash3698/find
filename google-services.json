@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "511289134836",
+    "firebase_url": "https://findv2.firebaseio.com",
+    "project_id": "findv2",
+    "storage_bucket": "findv2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511289134836:android:9b53712336931272ad18a1",
+        "android_client_info": {
+          "package_name": "com.example.findv2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "511289134836-c2lt6s646b5mfqle9ci65f2flaik9kso.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.findv2",
+            "certificate_hash": "99383afa3844b7afa14985e649545cd3ab515eb9"
+          }
+        },
+        {
+          "client_id": "511289134836-e756evs89cilcou06lvle1d802jqdnso.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoX3uHcHFYCVsTdfluanVIuQANYbO41vI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "511289134836-e756evs89cilcou06lvle1d802jqdnso.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
