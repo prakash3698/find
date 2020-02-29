@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login"
+    android:background="@drawable/signin">
+
+    <ImageButton
+        android:layout_width="46dp"
+        android:layout_height="48dp"
+        android:background="#00156523"
+        android:src="@drawable/backarrow"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="65dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/centurygothicregular"
+        android:text="SIGN IN"
+        android:textColor="@color/colorFont"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="276dp"
+        tools:layout_editor_absoluteY="70dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/centurygothicregular"
+        android:text="USERNAME"
+        android:textColor="@color/colorFont"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="240dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="274dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round1"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="270dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="271dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="390dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/centurygothicregular"
+        android:text="PASSWORD"
+        android:textColor="@color/colorFont"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="355dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round2"
+        android:fontFamily="@font/centurygothicregular"
+        android:text="SIGN IN"
+        android:textColor="#1A5717"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="490dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/centurygothicregular"
+        android:text="Didn't have an account?"
+        android:textColor="@color/colorFont"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="673dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/centurygothicregular"
+        android:text="Click here"
+        android:textColor="@color/colorFont"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="255dp"
+        tools:layout_editor_absoluteY="673dp"
+        tools:ignore="MissingConstraints" />
+</android.support.constraint.ConstraintLayout>
